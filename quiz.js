@@ -1,6 +1,11 @@
 const prompt = require('prompt-sync')();
 
 //Program 1: Temperature Converter
+console.log("THis is my temperature converter program")
+let 
+let fahrenheit = prompt("enter farenheit tempurature");
+ let celsius = (fahrenheit - 32) * 5/9; 
+ console. log("temperature in farenheit " + celsius.tofixed(2));
 
 //Program 2: Grade Calculator
 
@@ -8,6 +13,3 @@ const prompt = require('prompt-sync')();
 
 //Program 4: Largest Number Finder
 
-let fahrenheit = 39;
- let celsius = (fahrenheit - 32) * 5/9; 
- console. log("celsius");
